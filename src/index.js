@@ -6,7 +6,7 @@ import "./mySass.scss";
 
 export default function App() {
   return (
-    <div className="nav">
+    <div className="appNav">
       <Nav />
     </div>
   );

@@ -1,1 +1,45 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+#nav {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  #nav {
+    position: relative;
+    width: 68px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 618px) {
+  #nav {
+    width: 88px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    padding-right: 8px;
+  }
+
+  .appNav {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 1282px) {
+  #nav {
+    align-items: flex-start;
+    width: 275px;
+  }
+}
